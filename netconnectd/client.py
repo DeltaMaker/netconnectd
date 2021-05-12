@@ -8,11 +8,13 @@ from netconnectd.util import (common_arguments, parse_configfile, InvalidConfig,
 
 
 def client_start_ap(address, args):
-    client_send_message(address, StartApMessage())
+    pass
+    #client_send_message(address, StartApMessage())
 
 
 def client_stop_ap(address, args):
-    client_send_message(address, StopApMessage())
+    pass
+   # client_send_message(address, StopApMessage())
 
 
 def client_list_wifi(address, args):

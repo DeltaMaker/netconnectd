@@ -175,7 +175,7 @@ def params():
     long_description = LONG_DESCRIPTION
     author = "Gina Haeussge"
     author_email = "osd@foosel.net"
-    url = "http://github.com/foosel/netconnectd"
+    url = "http://github.com/Maximus-W/netconnectd"
     license = "AGPLV3"
     cmdclass = get_cmdclass()
 
@@ -183,7 +183,7 @@ def params():
     zip_safe = False
 
     dependency_links = [
-        "https://github.com/foosel/wifi/tarball/master#egg=wifi-1.0.1"
+        "https://github.com/Maximus-W/wifi/tarball/master#egg=wifi-1.0.1"
     ]
     install_requires = [
         "wifi==1.0.1",
